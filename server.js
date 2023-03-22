@@ -203,7 +203,7 @@ router.route('/webhook')
               headers: {
                 // 'Content-Type': 'audio/mpeg',
 				...formData.getHeaders(),
-                'Authorization': `Bearer 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`,
+                'Authorization': `Bearer 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`,
 				}
         	});
 			return res.status(200).send({"response":response.data})
